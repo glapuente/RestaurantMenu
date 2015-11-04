@@ -1,0 +1,99 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:1:1-63:12
+	xmlns:android
+		ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:1:11-69
+	package
+		ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:2:5-43
+		INJECTED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:4:5-30
+	android:versionCode
+		ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:3:5-28
+		INJECTED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:6:5-8:41
+	android:targetSdkVersion
+		ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:8:9-38
+		INJECTED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:7:9-34
+		INJECTED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:10:5-11:84
+	android:name
+		ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:11:9-65
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:12:5-13:83
+	android:name
+		ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:13:9-64
+application
+ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:16:5-61:19
+	android:label
+		ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:19:9-41
+	android:allowBackup
+		ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:17:9-35
+	android:icon
+		ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:18:9-45
+	android:theme
+		ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:20:9-40
+activity#second.assig.restaurant.menu.MainActivity
+ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:21:9-29:20
+	android:label
+		ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:23:13-56
+	android:name
+		ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:22:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:24:13-28:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:27:27-74
+activity#second.assig.restaurant.menu.SecondActivity
+ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:31:9-39:20
+	android:label
+		ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:33:13-56
+	android:name
+		ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:32:13-43
+intent-filter#android.intent.category.DEFAULT+second.assig.restaurant.menu.SecondActivity
+ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:34:13-37:29
+action#second.assig.restaurant.menu.SecondActivity
+ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:35:17-86
+	android:name
+		ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:35:25-83
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:36:17-76
+	android:name
+		ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:36:27-73
+activity#second.assig.restaurant.menu.ThirdActivity
+ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:41:9-49:20
+	android:label
+		ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:43:13-56
+	android:name
+		ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:42:13-42
+intent-filter#android.intent.category.DEFAULT+second.assig.restaurant.menu.ThirdActivity
+ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:44:13-47:29
+action#second.assig.restaurant.menu.ThirdActivity
+ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:45:17-85
+	android:name
+		ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:45:25-82
+activity#second.assig.restaurant.menu.JSONActivity
+ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:51:9-59:20
+	android:label
+		ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:53:13-56
+	android:name
+		ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:52:13-41
+intent-filter#android.intent.category.DEFAULT+second.assig.restaurant.menu.JSONActivity
+ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:54:13-57:29
+action#second.assig.restaurant.menu.JSONActivity
+ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:55:17-84
+	android:name
+		ADDED from C:\Users\Guillermo\AndroidStudioProjects\RestaurantMenu\app\src\main\AndroidManifest.xml:55:25-81

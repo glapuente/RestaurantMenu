@@ -1,0 +1,24 @@
+{
+  "tables": [
+    {
+      "tbl_num": "12",
+      "commensal": "4",
+      "served": "yes",
+      "menu": {
+        "appetizer": "patatas",
+        "main": "carne",
+        "dessert": "helado"
+      }
+    },
+    {
+      "tbl_num": "11",
+      "commensal": "2",
+      "served": "no",
+      "menu": {
+        "appetizer": "verdura",
+        "main": "pescado",
+        "dessert": "chocolate"
+      }
+    }
+  ]
+}

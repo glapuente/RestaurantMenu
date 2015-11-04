@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="app_name">Restaurant Menu</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Restaurant Menu</string>
+    <string name="usuario">UserName:</string>
+    <string name="contrasena">Password:</string>
+    <string name="login">Login</string>
+    <string name="firstCourse">First Course</string>
+    <string name="secondCourse">Second Course</string>
+    <string name="dessert">Dessert</string>
+    <string name="processMenu">ProcessMenu</string>
+    <string name="maintext">Mr. Android has requested the following menu:</string>
+    <string name="firstC"></string>
+    <string name="secondC"></string>
+    <string name="dessertC"></string>
+    <string name="json">JSON</string>
+
+</resources>

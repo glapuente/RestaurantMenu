@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/firstCourse"
+        android:textSize="16sp" 
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/ListView1"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/secondCourse"
+        android:textSize="16sp" 
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/ListView2"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dessert"
+        android:textSize="16sp" 
+        android:textStyle="bold" />
+
+    <ListView
+     android:id="@+id/ListView3"
+     android:layout_width="fill_parent"
+     android:layout_height="200dp" >
+    </ListView>
+
+   <Button
+     android:id="@+id/buttonMenu"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="@string/processMenu"
+     android:onClick="onClick" />
+   
+</LinearLayout>
+
+</ScrollView>
+
+</RelativeLayout>

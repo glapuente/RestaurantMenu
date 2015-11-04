@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+   
+   <TextView android:id="@+id/TextView04" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:text="@string/maintext"
+		android:textSize="32sp" 
+		android:textStyle="bold" />
+   
+   <TextView android:id="@+id/TextView05" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:text="@string/firstCourse"
+		android:textSize="24sp" 
+		android:textStyle="bold" />
+		
+	<EditText android:id="@+id/TxtFirst"
+		android:layout_height="wrap_content" 
+		android:layout_width="match_parent"
+		android:inputType="text"
+		android:text="@string/firstC" 
+		android:textStyle="bold" />
+	
+	<TextView android:id="@+id/TextView06" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:text="@string/secondCourse" 
+		android:textSize="24sp" 
+		android:textStyle="bold" />
+		
+	<EditText android:id="@+id/TxtSecond"
+		android:layout_height="wrap_content" 
+		android:layout_width="match_parent"
+		android:inputType="text"
+		android:text="@string/secondC"
+		android:textStyle="bold" />
+	
+	<TextView android:id="@+id/TextView07" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:text="@string/dessert"
+		android:textSize="24sp"  
+		android:textStyle="bold" />
+		
+	<EditText android:id="@+id/TxtDessert"
+		android:layout_height="wrap_content" 
+		android:layout_width="match_parent"
+		android:inputType="text"
+		android:text="@string/dessertC"
+		android:textStyle="bold" />
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Check tables"
+		android:id="@+id/btn_JSON" />
+
+</LinearLayout><!-- From: file:/C:/Users/Guillermo/AndroidStudioProjects/RestaurantMenu/app/src/main/res/layout/activity_third.xml -->
